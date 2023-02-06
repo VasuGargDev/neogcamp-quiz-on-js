@@ -43,7 +43,7 @@ var questions = [
   Javascript is an _______ language?
 	a: Object-Oriented
 	b: Object-Based
-      c: Procedural
+        c: Procedural
 	d: None of the above\n`,
 		answer: "a"
 	},
@@ -51,7 +51,7 @@ var questions = [
 		question: `
 	Which of the following keywords is used to define a variable in Javascript?
 	a: var
-      b: let
+        b: let
 	c: Both A and B\n`,
 		answer: "c"
 	},
@@ -69,7 +69,7 @@ var questions = [
 	Upon encountering empty statements, what does the Javascript Interpreter do?
 	a: Throws an error
 	b: Ignores the statements
-      c: Gives a warning
+        c: Gives a warning
 	d: None of the above\n`,
 		answer: "b"
 	},
@@ -77,8 +77,8 @@ var questions = [
 		question: `
 	Which of the following methods can be used to display data in some form using Javascript?
 	a: document.write()
-      b: console.log()
-      c: window.alert()
+        b: console.log()
+        c: window.alert()
 	d: All of the above\n`,
 		answer: "d"
 	},
@@ -87,7 +87,7 @@ var questions = [
 	How can a datatype be declared to be a constant type?
 	a: const
 	b: var
-      c: let
+        c: let
 	d: constant\n`,
 		answer: "a"
 	}
@@ -107,7 +107,7 @@ function results() {
   for (var j=0; j<highScores.length; j++) {
     var high = highScores[j];
     if(score > high.score){
-      console.log("Conratulations!You achieved a new high score. Please ping me a screenshot and I'll update it in high scores database");
+      console.log("Conratulations!You achieved a new high score. Please ping me a screenshot and I'll update it in high scores data");
       break;
     }
   }
